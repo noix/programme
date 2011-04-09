@@ -1,0 +1,487 @@
+body {
+	font-size: 11px;
+	line-height: 20px;
+	color: #333;
+	background-color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+input, select, option, textarea {
+	font-family: inherit;
+	font-size: 11px;
+}
+
+textarea {
+	line-height: 16px;
+}
+
+div.clear {
+	clear: both;
+	height: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d10;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+code {
+	display: block;
+	background-color: #eee;
+	padding: 8px 16px;
+	margin: 10px 0;
+}
+
+div.confirm, p.message, p.error, p.errorMissing, p.errorInvalid, p.errorFileUpload {
+	clear: both;
+	padding: 10px 0;
+	background: url("lined.png") top left repeat-x;
+	width: 570px;
+	margin-bottom: 12px;
+	float: left;
+	font-size: 15px;
+	color: #d10;
+}
+
+p.disabled {
+	color: #d6d6d6;
+	font-size: 13px;
+	padding: 5px 0;
+	margin: 0 0 20px;
+	font-weight: bold;
+}
+
+p.notice {
+	clear: both;
+	color: #999;
+}
+
+div.confirm form {
+	margin: 8px 0 5px;
+	float: right;
+}
+
+div.confirm input.submit {
+	margin: 0 0 0 10px;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* Header
+   --------------------------------------------------
+*/
+
+h1 {
+	color: #ddd;
+	background-color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 0 15px 20px;
+	margin-bottom: 27px;
+}
+
+/* Top links
+   --------------------------------------------------
+*/
+
+ul#toplinks {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+ul#toplinks li:first-child {
+	border: 0;
+}
+
+ul#toplinks li {
+	float: left;
+	margin-left: 12px;
+	border-left: 1px solid #444;
+	padding: 6px 0 6px 12px;
+}
+
+ul#toplinks a {
+	border: 0;
+	font-weight: bold;
+	color: #ddd;
+}
+
+ul#toplinks a:hover {
+	color: #d10;
+}
+
+/* Menu
+   --------------------------------------------------
+*/
+
+ul#menu {
+	position: absolute;
+	left: 20px;
+	width: 160px;
+}
+
+ul#menu a {
+	font-size: 15px;
+	color: #aaa;
+	display: block;
+	padding: 4px 10px;
+	margin-left: -10px;
+}
+
+ul#menu a:hover, ul#menu li.current a:hover {
+	background-color: #333;
+	color: white;
+}
+
+ul#menu li.current a {
+	color: black;
+}
+
+/* Body
+   --------------------------------------------------
+*/
+
+div#body {
+	float: left;
+	padding: 0 20px 60px 210px;
+}
+
+div#body form a {
+	font-weight: bold;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+p.addItem {
+	font-size: 125%;
+}
+
+input.submit {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px 12px;
+	border: none;
+	color: white;
+	background-color: #333;
+	display: block;
+	cursor: pointer;
+}
+
+input.submit:hover {
+	background-color: #d10;
+}
+
+a.button {
+	color: #d10;
+	font-size: 13px;
+	padding: 5px 10px;
+	margin: 0 0 20px -10px;
+	font-weight: bold;
+	clear: both;
+	float: left;
+}
+
+a.button:hover {
+	background-color: #d10;
+	color: white;
+}
+
+/* Item actions
+   --------------------------------------------------
+*/
+
+ul.actions {
+	float: right;
+	margin: 0 -12px 24px 0;
+	text-align: right;
+}
+
+ul.actions li {
+	float: left;
+	border-left: 1px solid #eee;
+}
+
+ul.actions li:first-child {
+	border-left: 0;
+}
+
+ul.actions a {
+	font-weight: bold;
+	color: #333;
+	padding: 4px 12px;
+	display: block;
+}
+
+ul.actions a:hover {
+	background-color: #d10;
+	color: white;
+}
+
+/* Versions list
+   --------------------------------------------------
+*/
+
+ul.versions {
+	clear: both;
+	width: 380px;
+}
+
+ul.versions li {
+	list-style: none;
+}
+
+ul.versions li a {
+	display: block;
+	padding: 3px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+ul.versions li a:hover {
+	background-color: #333;
+	color: white;
+	padding: 3px 10px;
+	margin: 0 -10px;
+}
+
+/* Image lists
+   --------------------------------------------------
+*/
+
+ul.images, ul.images li {
+	float: left;
+}
+
+ul.images a {
+	float: left;
+	margin: 0 10px 10px 0;
+	color: #eee;
+	border: 1px solid;
+}
+
+ul.images a:hover {
+	color: #d10;
+	border-width: 4px;
+	margin: -3px 7px 7px -3px;
+}
+
+ul.images img {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+/* Tables
+   --------------------------------------------------
+*/
+
+table.items {
+	clear: both;
+	border-spacing: 0;
+	margin-left: -10px;
+}
+
+table.items th, table.items td {
+	padding: 3px 10px 3px 10px;
+	color: #666;
+}
+
+table.items th a {
+	color: #aaa;
+	padding: 3px 12px 3px 0;
+}
+
+table.items th a.sort {
+	background: url("sortUp.png") no-repeat center right;
+}
+
+table.items th a.sort.up {
+	background: url("sortDown.png") no-repeat center right;
+}
+
+table.items th.hover {
+	background-color: #eee;
+	cursor: hand;
+	cursor: pointer;
+}
+
+table.items td {
+	border-top: 1px solid #eee;
+}
+
+table.items td a {
+	font-weight: bold;
+}
+
+table.items td.delete {
+	background-color: white;
+}
+
+table.items td.delete a {
+	padding: 4px 0;
+	color: #ccc;
+}
+
+table.items td.delete a:hover {
+	color: #d10;
+}
+
+table.items tr.hover {
+	background-color: #333;
+	cursor: hand;
+	cursor: pointer;
+}
+
+table.items tr.hover td {
+}
+
+table.items tr.hover * {
+	color: white;
+}
+
+input.search {
+	margin: 10px 0;
+	float: left;
+	clear: both;
+}
+
+/* Translation
+   --------------------------------------------------
+*/
+
+dl#translate_original {
+	width: 540px;
+	background-color: #eee;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+
+dl#translate_original dt {
+	font-weight: normal;
+	color: #aaa;
+	float: left;
+	width: 145px;
+	margin-right: 30px;
+	height: 20px;
+	overflow: hidden;
+}
+
+dl#translate_original dd {
+	margin: 0;
+	color: #666;
+	padding-left: 175px;
+}
+
+/* Forms
+   --------------------------------------------------
+*/
+
+form {
+	clear: both;
+}
+
+div.actions {
+	width: 570px;
+	margin-bottom: 16px;
+	text-align: right;
+}
+
+form > div {
+	width: 570px;
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+}
+
+form div.missing {
+	color: #d10;
+}
+
+form div.invalid {
+	color: #eee;
+}
+
+form label {
+	display: block;
+	font-weight: bold;	
+	float: left;
+	width: 160px;
+	margin-right: 30px;
+	height: 20px;
+	overflow: hidden;
+}
+
+form div div {
+	padding-left: 190px;
+}
+
+form div div p {
+	margin-bottom: 3px;
+	color: #999;
+}
+
+form div div p img {
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+
+form textarea {
+	width: 376px;
+}
+
+form input.submit {
+	height: 28px;
+	margin: 8px 0 0 190px;
+}
+
+form fieldset {
+	padding: 0;
+	border: 0;
+}
+
+form span.disabled {
+	color: #ccc;
+}
+
+span.fileDeleteCheckbox {
+	float: right;
+}
+
+a.thumbnail {
+	display: block;
+	border: 1px;
+	margin-bottom: 8px;
+}
+
+a.thumbnail img {
+	display: block;
+}
+
+/* Menu module */
+
+ul.menu ul {
+	margin-left: 20px;
+}

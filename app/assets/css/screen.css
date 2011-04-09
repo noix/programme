@@ -175,16 +175,16 @@ ul#etapes {
 	width: 48.6em; /* Explorer gentil */
 	float: left;
 	background-color: white;
-	margin: 1.5em 0 0;
+	margin: 16px 0 0;
 	border-radius: 7px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 }
 
 div#big-bloc ul#etapes {
-/*	width: 857px; parfait */
-	width: 71.6em;  
-}
+ width: 856px; /* parfait */
+/*	width: 71.6em;  
+*/}
 
 ul#etapes li {
 	float: left;
@@ -209,7 +209,8 @@ ul#etapes li {
 		}
 
 div#big-bloc ul#etapes li { /* Accueil */
-	width: 17.9em; /* Quatre étapes */
+	width: 214px;
+/*	width: 17.9em; /* Quatre étapes */
 /*	width: 23.9em; Trois étapes */
 }
 

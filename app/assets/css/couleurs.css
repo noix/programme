@@ -1,0 +1,232 @@
+/*-- Qui n'ont pas à changer  --*/
+div#titre h2,
+div.couleur div.boite dl.contributions dt,
+div#intro div.details p,
+div#presentation p,
+div#themes-nav h3 {
+	color: #878587; /* Gris de texte */
+}
+div.navigation dd,
+div.bloc-eche h2,
+div.navigation dt {
+	color: #4f494a;
+}
+div.calendrier dl dt a.done,
+div.calendrier dl dd span,
+div#citations h2,
+div.dynamique h2 {
+	color: #989fa7;
+}
+	div.calendrier dl dt a.done {
+		border-bottom: 1px solid #83979d;
+	}
+table th,
+ul.contribution label,
+div.titre label,
+div.navigation form p,
+div.navigation h4 {
+	color: #7b7777;
+}
+div.navigation p, div.navigation li, div#telechargement {
+	color: #575757;
+}
+
+div.sous-boite ol ul li {
+	color: #5d6062;
+}
+div.sous-boite ol ul li ul li {
+	color: #76858d;
+}
+div.dynamique dl dd p,
+div.dynamique div.bloc-dyn dd {
+	color: #979ea6;
+}
+form p.more a {
+	color: #656d44;
+}
+
+.themes li a span.titre {
+	color: white;
+/*	border-bottom: 1px solid #bcd3a2; */
+}
+
+/*-- Couleurs secondaires du thème --*/
+div#presentation li a.actif,
+div#presentation h1 {
+	color: #670291; /* Titre non clickable */
+}
+div.couleur h3, 
+div#titre h3,
+div#big-bloc h3 {
+	color: #9053aa; /* Couleurs de titre non clickable sur fond brun */
+}
+div.navigation h3 {
+	color: #ae6d33
+}
+
+/*-- Actions sur les thèmes --*/
+ul.themes li a.selected {
+	background-color: #533160;
+}
+ul.themes li a.selected span.titre {
+	border-bottom: 1px solid #898F6D;
+}
+
+/*-- Couleurs principales du thème --*/
+div#intro p {
+	color: #faf1e0;
+}
+div#grosses-boites div p {
+	color: #faf1e0; /* Couleurs de texte sur fond de couleur */
+}
+div.navigation p.auteur {
+	color: #999;
+}
+form input.submit,
+ol span.definir:hover {
+	color: #749D19;
+}
+div.bloc-dyn p {
+	color: #c0c7a9;
+}
+
+ul.perspectives li div.numero {
+	color: #749D19;
+}
+ul.perspectives li ul li div.numero {
+	color: #929C67;
+}
+
+ul.perspectives li.entete,
+ul.tdm li span {
+	color: #999;
+}
+
+/*-- Liens --*/
+	
+a {
+	color: #d4942f;
+	border-bottom: 1px solid #a4ba3f;
+}
+	a:visited,
+	a:hover,
+	a.visited {
+		color: #dab479;
+		border-bottom: solid 1px #adb783
+	}
+ 		a:visited:hover {
+			color: #d4942f;
+			border-bottom: solid 1px #adb783;
+		}
+
+
+			/*-- Liens sur fond brun --*/
+			p.titre.brun a:hover {
+				color: #e1ba77;
+			}
+			p.titre.brun a:visited { /*pour l'accueil*/
+				color: #e1ba77;
+				border-bottom: solid 1px #656d44
+			}
+/*		 	p.titre.brun a:visited:hover { /*pour l'accueil*/
+				color: #5b8b3f;
+				border-bottom: solid 1px #536c7c;
+			}*/
+
+	div.dynamique.accueil a {
+		color: #94a451;
+		border-bottom: 1px solid #94a451;
+	}
+		div.dynamique a:hover {
+				color: #94a451;
+				border-bottom: 1px solid #656d44;
+		}
+	div.dynamique div.bloc-dyn a {
+		color: #94a451;
+		border-bottom: 1px solid #b3c07c;
+	}
+		dl#biblio a:hover,
+		div.dynamique div.bloc-dyn a:hover {
+			color: #b3c07c;
+			border-bottom: 1px solid #b3c07c;
+		}
+	
+
+/*-- Thèmes --*/
+	.theme1.hover, .theme2.hover, .theme3.hover, .theme4.hover {
+		cursor: pointer;
+		cursor: hand;
+	}
+	.theme1 { background-color: #feaf06 ; }
+	.theme2 { background-color: #ed971c ; }
+ 	.theme3 { background-color: #fd8f1c; }
+  	.theme4 { background-color: #fc7905; }
+ 	.theme1.hover { background-color: #fea619; }
+	.theme2.hover { background-color: #ea8c14; }
+	.theme3.hover { background-color: #ed8625; }
+	.theme4.hover { background-color: #ec711d; }
+	.theme1.hover.selected { background-color: #feaf06; }
+	.theme2.hover.selected { background-color: #ed971c; }
+ 	.theme3.hover.selected { background-color: #fd8f1c; }
+  	.theme4.hover.selected { background-color: #fc7905; }
+		ul.themes li a span.titre {
+			border-bottom: 1px solid #bcd3a2;
+		}
+		
+
+	/*-- Couleurs pour la flèche --*/
+		/*-- Couleur de texte --*/
+		ul#etapes div.digit {
+			color: #b4c17c; /* Chiffre */
+	}
+			ul#etapes li.selected div.digit {
+				color: #f6e2d0;
+		}
+			/* */
+			ul#etapes.etape1.hover0 li#etape1 div.digit,
+			ul#etapes.etape2.hover1 li#etape2 div.digit,
+			ul#etapes.etape3.hover2 li#etape3 div.digit,
+			ul#etapes.hover0 li#etape1 div.digit,
+			ul#etapes.hover1 li#etape2 div.digit,
+			ul#etapes.hover2 li#etape3 div.digit {
+				background-image: url("fleche-etape.png");
+			}
+		ul#etapes a {
+				color: #767f50;
+				border-bottom: 1px solid #bcd3a2;
+				 /* Titre */
+		}
+			ul#etapes li.selected a,
+			ul#etapes li.hover a  {
+				color: white;
+				border-bottom: 1px solid #898f6d;
+			}
+
+		ul#etape p {
+			color: #8b989f; /* Description */
+	}
+			ul#etapes li.selected p {
+
+				color: #d6d9cb;
+
+			}
+			ul#etapes li.hover p,
+			ul#etapes li.hover div.digit {
+				color: #ecf9cf;
+			}
+
+
+		/*-- Couleur de fond --*/
+		.selected {
+			background-color: #ae6d33;
+		}
+		ul#etapes.etape1 li#etape1 div.digit,
+		ul#etapes.etape2 li#etape2 div.digit,
+		ul#etapes.etape3 li#etape3 div.digit {
+			background-image: url("flecheVerte.png");
+		}
+			ul#etapes li.hover {
+				background-color: #fd8f1c;
+				cursor: pointer;
+				cursor: hand;
+			}

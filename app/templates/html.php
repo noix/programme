@@ -6,6 +6,8 @@
 	<title><?= $_JAM->title ? $_JAM->title .' – ' : '' ?>Programme de Québec solidaire</title>
 	<link rel="stylesheet" href="<?= ROOT ?>assets/css/reset.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?= ROOT ?>assets/css/screen.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?= ROOT ?>assets/css/couleurs.css" type="text/css" media="screen" />
+
 	<script type="text/javascript" src="<?= ROOT ?>assets/js/jquery.js"> </script>
 	<script type="text/javascript" src="<?= ROOT ?>assets/js/swfobject.js"> </script></head>
 	<script type="text/javascript" src="<?= ROOT ?>assets/js/qs.js"> </script>

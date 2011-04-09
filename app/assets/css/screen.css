@@ -19,7 +19,7 @@ div#grosses-boites {
 div.couleur {
 	clear: left;
 	padding: 1em 0 2.5em 0;
-	background: url("vert.png") #302a2a no-repeat top left;
+	background: url("fond.png") #302a2a no-repeat top left;
 }
 div#intro {
 	float: left;
@@ -29,133 +29,7 @@ div#intro {
 /*-------------------------*/
 
 
-/*-- Couleurs --*/
-div#presentation li a.actif,
-div#presentation h1 {
-	color: #670291; /* Titre non clickable */
-}
-div.couleur h3, 
-div#titre h3,
-div#big-bloc h3 {
-	color: #9053aa; /* Couleurs de titre non clickable sur fond brun */
-}
-div#intro p {
-	color: #faf1e0;
-}
 
-div#grosses-boites div p {
-	color: #faf1e0; /* Couleurs de texte sur fond de couleur */
-}
-div#titre h2,
-div.couleur div.boite dl.contributions dt,
-div#intro div.details p,
-div#presentation p,
-div#themes-nav h3 {
-	color: #878587; /* Gris de texte */
-}
-
-	/*-- Liens --*/
-	
-	a {
-		color: #d4942f;
-	}
-		a:visited,
-		a:hover,
-		a.visited {
-			color: #dab479;
-			border-bottom: solid 1px #adb783
-		}
-
-		 	a:visited:hover {
-				color: #d4942f;
-				border-bottom: solid 1px #adb783;
-			}
-			/*-- Liens sur fond brun --*/
-			p.titre.brun a:hover {
-				color: #e1ba77;
-			}
-			p.titre.brun a:visited { /*pour l'accueil*/
-				color: #e1ba77;
-				border-bottom: solid 1px #656d44
-			}
-/*		 	p.titre.brun a:visited:hover { /*pour l'accueil*/
-				color: #5b8b3f;
-				border-bottom: solid 1px #536c7c;
-			}*/
-	/*-- Thèmes --*/
-	.theme1.hover, .theme2.hover, .theme3.hover, .theme4.hover {
-		cursor: pointer;
-		cursor: hand;
-	}
-	.theme1 { background-color: #feaf06 ; }
-	.theme2 { background-color: #ed971c ; }
- 	.theme3 { background-color: #fd8f1c; }
-  	.theme4 { background-color: #fc7905; }
- 	.theme1.hover { background-color: #ef8400; }
-	.theme2.hover { background-color: #ff7c00; }
-	.theme3.hover { background-color: #ff9a00; }
-	.theme4.hover { background-color: #ff5700; }
-	.theme1.hover.selected { background-color: #ed971c; }
-	.theme2.hover.selected { background-color: #fd8f1c; }
- 	.theme3.hover.selected { background-color: #ffc106; }
-  	.theme4.hover.selected { background-color: #fc8505; }
-		ul.themes li a span.titre {
-			border-bottom: 1px solid #bcd3a2;
-		}
-	/*-- Couleurs pour la flèche --*/
-		/*-- Couleur de texte --*/
-		ul#etapes div.digit {
-			color: #b4c17c; /* Chiffre */
-	}
-			ul#etapes li.selected div.digit {
-				color: #f6e2d0;
-		}
-			/* */
-			ul#etapes.etape1.hover0 li#etape1 div.digit,
-			ul#etapes.etape2.hover1 li#etape2 div.digit,
-			ul#etapes.etape3.hover2 li#etape3 div.digit,
-			ul#etapes.hover0 li#etape1 div.digit,
-			ul#etapes.hover1 li#etape2 div.digit,
-			ul#etapes.hover2 li#etape3 div.digit {
-				background-image: url("flecheBleue.png");
-			}
-		ul#etapes a {
-				color: #767f50; /* Titre */
-		}
-			ul#etapes li.selected a,
-			ul#etapes li.hover a  {
-				color: white;
-				border-bottom: 1px solid #898f6d;
-			}
-
-		ul#etape p {
-			color: #8b989f; /* Description */
-	}
-			ul#etapes li.selected p {
-
-				color: #d6d9cb;
-
-			}
-			ul#etapes li.hover p,
-			ul#etapes li.hover div.digit {
-				color: #ecf9cf;
-			}
-
-
-		/*-- Couleur de fond --*/
-		.selected {
-			background-color: #ae6d33;
-		}
-		ul#etapes.etape1 li#etape1 div.digit,
-		ul#etapes.etape2 li#etape2 div.digit,
-		ul#etapes.etape3 li#etape3 div.digit {
-			background-image: url("flecheVerte.png");
-		}
-			ul#etapes li.hover {
-				background-color: #fd8f1c;
-				cursor: pointer;
-				cursor: hand;
-			}
 /*-------------------------*/
 
 /*-- Thèmes --*/
@@ -178,8 +52,6 @@ ul.themes li a {
 	}
 ul.themes li a span.titre {
 	font-weight: bold;
-	color: white;
-	border-bottom: 1px solid #bcd3a2;
 }
 	div.boite div#themes-nav ul.themes li a.theme3.coinsronds span.titre,
 	div.boite div#ref-themes ul.themes li a.theme3.coinsronds span.titre {
@@ -190,14 +62,6 @@ ul.themes li a span.titre {
 		padding-bottom: 23px;
 	}
 
-
-	/*-- Actions sur les thèmes --*/
-	ul.themes li a.selected {
-		background-color: #ae6d33;
-	}
-	ul.themes li a.selected span.titre {
-		border-bottom: 1px solid #898F6D;
-	}
 	
 /*-- Thèmes pour l'Accueil --*/
 div#grosses-boites div.coinsronds {
@@ -207,6 +71,9 @@ div#grosses-boites div.coinsronds {
 		margin-bottom: 1.08em;
 		padding: 1.17em 3.33em 0 2.67em;
 		color: white;
+		border-radius: 7px;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
 }
 	div.theme1, div.theme3 {
 		margin-right: 1.08em;
@@ -236,30 +103,30 @@ div#grosses-boites div.coinsronds {
 			padding: 0;
 		}
 		div.c1 {
-			background: url("coinBlanc1.png") no-repeat top left;
+/*			background: url("coinBlanc1.png") no-repeat top left;*/
 			top: 0;
 			left: 0;
 		}
 		div.c2 {
-			background: url("coinBlanc2.png") no-repeat top right;
-			top: 0;
+/*			background: url("coinBlanc2.png") no-repeat top right;
+*/			top: 0;
 			right: 0;
 		}
 		div.c3 {
-			background: url("coinBlanc3.png") no-repeat bottom right;
-			bottom: 0;
+/*			background: url("coinBlanc3.png") no-repeat bottom right;
+*/			bottom: 0;
 			right: 0;
 		}
 		div.c4 {
-			background: url("coinBlanc4.png") no-repeat bottom left;
-			bottom: 0;
+/*			background: url("coinBlanc4.png") no-repeat bottom left;
+*/			bottom: 0;
 			left: 0;
 		}
-		div.couleur div.c1 { background-image: url("coinBrun1.png"); }
+/*		div.couleur div.c1 { background-image: url("coinBrun1.png"); }
 		div.couleur div.c2 { background-image: url("coinBrun2.png"); }
 		div.couleur div.c3 { background-image: url("coinBrun3.png"); }
 		div.couleur div.c4 { background-image: url("coinBrun4.png"); }
-		
+*/		
 	/*-- Thèmes pour la page outils --*/
 	div#page-theme ul.themes li a {
 		width: 7.6em;
@@ -305,10 +172,14 @@ ul#etapes {
 	float: left;
 	background-color: white;
 	margin: 1.5em 0 0;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
 }
 
 div#big-bloc ul#etapes {
-	width: 71.6em; /* Accueil */
+	width: 856px;
+/*	width: 71.6em; Accueil */
 }
 
 ul#etapes li {
@@ -316,6 +187,22 @@ ul#etapes li {
 /*	width: 16.2em; Trois étapes */
 	width: 145px; /* Quatre étapes */
 }
+	ul#etapes li#etape0 {
+		border-top-left-radius: 7px;
+		border-bottom-left-radius: 7px;
+		-webkit-border-top-left-radius: 7px;
+		-webkit-border-bottom-left-radius: 7px;
+		-moz-border-top-left-radius: 7px;
+		-moz-border-bottom-left-radius: 7px;
+		}
+	ul#etapes li#etape3 {
+		border-top-right-radius: 7px;
+		border-bottom-right-radius: 7px;
+		-webkit-border-top-right-radius: 7px;
+		-webkit-border-bottom-right-radius: 7px;
+		-moz-border-top-right-radius: 7px;
+		-moz-border-bottom-right-radius: 7px;
+		}
 
 div#big-bloc ul#etapes li { /* Accueil */
 	width: 17.9em; /* Quatre étapes */
@@ -335,7 +222,6 @@ ul#etapes div.description {
 ul#etapes a {
 	text-decoration: none;
 	font-size: 1.4em;
-	border-bottom: 1px solid #bcd3a2;
 }
 
 ul#etapes p {
@@ -368,21 +254,21 @@ ul#etapes li#etape3 div.description {
 
 ul#etapes li#etape0 div.digit {
 	padding-left: 0.3em;
-	background: url("coinBrun4.png") no-repeat bottom left;
-}
+/*	background: url("coinBrun4.png") no-repeat bottom left;
+*/}
 
 ul#etapes li#etape0 div.description {
-	background: url("coinBrun1.png") no-repeat top left;
-}
+/*	background: url("coinBrun1.png") no-repeat top left;
+*/}
 
 ul#etapes li#etape3 div.description {
 	padding-right: 1.2em;
-	background: url("coinBrun2.png") no-repeat top right;
-}
+/*	background: url("coinBrun2.png") no-repeat top right;
+*/}
 
 ul#etapes li#etape3 {
-	background-image: url("coinBrun3.png");
-	background-repeat: no-repeat;
+/*	background-image: url("coinBrun3.png");
+*/	background-repeat: no-repeat;
 	background-position: bottom right;
 }
 
@@ -401,11 +287,8 @@ div.clear {
 	/*-- Liens --*/
 	a {
 		text-decoration: none;
-		border-bottom: 1px solid #a4ba3f;
 	}
-		a:hover {
-			border-bottom: 1px solid #bcd3a2;
-	}
+
 		/*-- Liens particuliers --*/
 		div.couleur div.dynamique div.bloc-dyn a,
 		div.couleur a {
@@ -560,15 +443,13 @@ div.couleur div.boite dl.contributions dt {
 		margin: 1em 0 0.67em;
  		font-family: georgia, verdana, "times new roman";
 		font-size: 1.50em;
-		color: #ae6d33;
+;
 	}
 	div.navigation p, div.navigation li, div#telechargement {
  		font-family: helvetica, arial;
  		line-height: 1.42em;
-		color: #575757;
 	}
 	div.navigation p.auteur {
-		color: #999;
 		margin: 0 0 2em;
 	}
 
@@ -581,13 +462,11 @@ div.couleur div.boite dl.contributions dt {
  		font-family: helvetica, arial;
  		font-size: 1.08em;
 		font-weight: bold;
-		color: #4f494a;
 	}
 
 	div.navigation dd {
  		margin-bottom: 0.6em;
 		line-height: 1.25em;
-		color: #4f494a;
 	}
 
 	div#ref-themes, div#ressources, div#telechargement, div#commentaires, div#autresContributions {
@@ -662,12 +541,10 @@ div.couleur div.boite dl.contributions dt {
 		div.sous-boite ol ul li {
  			font-family: helvetica, arial;
  			font-size: 0.87em;
-			color: #5d6062;
 		}
 		div.sous-boite ol ul li ul li {
  			font-family: georgia, verdana, "times new roman";
  			font-weight: normal;
-			color: #76858d;
 		}
 		
 			/*Lexique*/
@@ -695,9 +572,7 @@ div.couleur div.boite dl.contributions dt {
 				background-color: #dbdcdd;
 				font-size: 0.83em;				
 			}
-				ol span.definir:hover {
-					color: #749D19;
-				}
+
 			
 		/*Section dynamique*/
 		div.dynamique {
@@ -707,7 +582,6 @@ div.couleur div.boite dl.contributions dt {
 			div#citations h2,
 			div.dynamique h2 {
 			font-size: 1.50em;
- 			color: #989fa7;
 			font-family: georgia, verdana, "times new roman";
 		}
 		div.dynamique a.more {
@@ -723,9 +597,7 @@ div.couleur div.boite dl.contributions dt {
 		div.dynamique dl dt {
 			margin-bottom: 0.3em;
 		}
-		div.dynamique dl dd p {
-			color: #979ea6;
-		}
+
 			/*Thèmes*/
 /*			div.dynamique.themes a {
 				font-size: 1em;
@@ -751,17 +623,9 @@ div.couleur div.boite dl.contributions dt {
 			div.dynamique div.bloc-dyn a {
 				font-size: 1em;
 				line-height: 1.4em;
-				color: #94a451;
-				border-bottom: 1px solid #b3c07c;
 			}
-			div.dynamique div.bloc-dyn dd {
-				color: #979ea6;
-			}
-			dl#biblio a:hover,
-			div.dynamique div.bloc-dyn a:hover {
-				color: #b3c07c;
-				border-bottom: 1px solid #b3c07c;
-			}
+
+
 /*			div.dynamique a {
 				font-family: helvetica, arial;
 				font-weight: bold; 
@@ -775,26 +639,19 @@ div.couleur div.boite dl.contributions dt {
 				float: left;
 			}
 			div.dynamique.accueil a {
-				color: #94a451;
 				font-size: 0.75em;
 				font-family: helvetica, arial;
 				font-weight: bold; 
 				line-height: 1.5em; /* Explorer-gentil */
-				border-bottom: 1px solid #94a451;
 			}
-				div.dynamique a:hover {
-						color: #94a451;
-						border-bottom: 1px solid #656d44;
-				}
+
 				/*Dynamique à l'Accueil*/
 				}
 				div.bloc-dyn.fleches {
 					padding-bottom: 1em;
 					background: url("fleches.png") no-repeat bottom left;
 				}
-				div.bloc-dyn p {
-					color: rgb(192, 199, 169);
-				}
+
 				div#big-bloc div.dynamique {
 					padding-top: 0;
 				}
@@ -907,11 +764,9 @@ dl.participer {
 		font-family: georgia, verdana, "times new roman";
 		font-size: 1.25em;
 		padding-top: 1.8em;
-		color: #7b7777;
 	}
 	div.navigation form p {
 		font-family: georgia, verdana, "times new roman";
-		color: #7b7777;
 		margin-top: 0.42em;
 	}
 	
@@ -920,7 +775,6 @@ dl.participer {
 		ul.contribution label,
 		div.titre label {
 			font-weight: bold;
-			color: #7b7777;
 		}
 		table.cercle {
 			margin-bottom: 1em;
@@ -960,7 +814,6 @@ dl.participer {
 				border-bottom: none;
 				background-color: #e6e6e7;
 				font-family: helvetica, arial;
-				color: #656d44;
 				font-weight: bold;
 			}
 			form p.more a img {
@@ -1035,7 +888,6 @@ dl.participer {
 		border: none;
 		font-family: helvetica, arial;
 		font-weight: bold;
-		color: #749D19;
 	}
 	
 /* Calendrier */
@@ -1056,13 +908,8 @@ div.calendrier dl dd {
 }
 div.calendrier dl dd span {
 	font-size: 0.85em;
-	color: #989FA7;
 }
  	/* Événements passés */
-	div.calendrier dl dt a.done {
-		color: #989fa7;
-		border-bottom: 1px solid #83979d;
-	}
 	div.calendrier dl dt span {
 		font-size: 0.6em;	
 		display: none;
@@ -1123,13 +970,7 @@ ul.perspectives a.top {
 	font-weight: normal;
 	background: url("arrowUp.png") no-repeat top right;
 }
-	/* Couleurs */
-	ul.perspectives li div.numero {
-		color: #749D19;
-	}
-	ul.perspectives li ul li div.numero {
-		color: #929C67;
-	}
+
 	/* numéro à côté de texte */
 	ul.perspectives li, 
 	ul.perspectives li div.texte,
@@ -1159,7 +1000,6 @@ ul.tdm li {
 }
 ul.tdm li span {
 	float: left;
-	color: #999;
 }
 ul.tdm li div {
 	padding-left: 2.2em;
@@ -1174,7 +1014,6 @@ ul.tdm li.header {
 ul.perspectives li.entete {
 	margin: 1.2em 0 0 53px;
 	font-size: 1em;
-	color: #999;
 }
 /* Titre partie */
 ul.perspectives li.section.entete {

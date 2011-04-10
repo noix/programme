@@ -58,7 +58,7 @@ div#presentation h1 {
 div.couleur h3, 
 div#titre h3,
 div#big-bloc h3 {
-	color: #9053aa; /* Couleurs de titre non clickable sur fond brun */
+	color: #9254ac; /* Couleurs de titre non clickable sur fond brun */
 }
 div.navigation h3 {
 	color: #ae6d33
@@ -104,19 +104,21 @@ ul.tdm li span {
 
 /*-- Liens --*/
 	
+
 a {
 	color: #d4942f;
-	border-bottom: 1px solid #a4ba3f;
+	border-bottom: 1px solid #e08b12;
 }
 	a:visited,
 	a:hover,
 	a.visited {
 		color: #dab479;
-		border-bottom: solid 1px #adb783
+		border-bottom: solid 1px #e4dc97;
 	}
+
  		a:visited:hover {
 			color: #d4942f;
-			border-bottom: solid 1px #adb783;
+			border-bottom: solid 1px #e08b12 ;
 		}
 
 
@@ -158,9 +160,13 @@ a {
 		cursor: hand;
 	}
 	.theme1 { background-color: #feaf06 ; }
+		.theme1 a { border-bottom: solid 1px #e4dc97; }
 	.theme2 { background-color: #ed971c ; }
+		.theme2 a { border-bottom: solid 1px #edca77; }
  	.theme3 { background-color: #fd8f1c; }
-  	.theme4 { background-color: #fc7905; }
+		.theme3 a { border-bottom: solid 1px #f1c54e; }
+	.theme4 { background-color: #fc7905; }
+		.theme4 a { border-bottom: solid 1px #fead21; }
  	.theme1.hover { background-color: #fea619; }
 	.theme2.hover { background-color: #ea8c14; }
 	.theme3.hover { background-color: #ed8625; }
@@ -170,7 +176,16 @@ a {
  	.theme3.hover.selected { background-color: #fd8f1c; }
   	.theme4.hover.selected { background-color: #fc7905; }
 		ul.themes li a span.titre {
-			border-bottom: 1px solid #bcd3a2;
+			border-bottom: 1px solid #f3dc40;
+		}
+		ul.themes li:hover a span.titre {
+			border-bottom: 1px solid #f8ed9f;
+		}
+		div#grosses-boites div.coinsronds:hover a {
+			border-bottom: solid 1px #e4dc97;
+		}
+		div#grosses-boites div.coinsronds:hover a:visited {
+			border-bottom: solid 1px #e08b12 ;
 		}
 		
 

@@ -62,7 +62,7 @@ div#big-bloc h3 {
 	color: #9254ac; /* Couleurs de titre non clickable sur fond brun */
 }
 div.navigation h3 {
-	color: #ae6d33
+	color: #6d468f;
 }
 
 /*-- Actions sur les thèmes --*/
@@ -107,8 +107,6 @@ ul.tdm li span {
 }
 
 /*-- Liens --*/
-	
-
 a {
 	color: #d4942f;
 	border-bottom: 1px solid #e08b12;
@@ -147,14 +145,16 @@ a {
 				color: #94a451;
 				border-bottom: 1px solid #656d44;
 		}
+	div.dynamique div.bloc-dyn a:visited:hover,
 	div.dynamique div.bloc-dyn a {
-		color: #94a451;
-		border-bottom: 1px solid #b3c07c;
+		color: #dc8128;
+		border-bottom: 1px solid #e6ae41;
 	}
+		div.dynamique div.bloc-dyn a:visited,
 		dl#biblio a:hover,
 		div.dynamique div.bloc-dyn a:hover {
-			color: #b3c07c;
-			border-bottom: 1px solid #b3c07c;
+			color: #f8a554;
+			border-bottom: 1px solid #e6ae41;
 		}
 	
 

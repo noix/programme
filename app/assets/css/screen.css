@@ -171,8 +171,8 @@ div#grosses-boites div.coinsronds {
 
 /*-- Flèche --*/
 ul#etapes {
-/*	width: 580px; parfait */
-	width: 48.6em; /* Explorer gentil */
+	width: 600px; /* parfait */
+/*	width: 48.6em; /* Explorer gentil */
 	float: left;
 	background-color: white;
 	margin: 16px 0 0;
@@ -189,7 +189,7 @@ div#big-bloc ul#etapes {
 ul#etapes li {
 	float: left;
 /*	width: 16.2em; Trois étapes */
-	width: 145px; /* Quatre étapes */
+	width: 150px; /* Quatre étapes */
 }
 	ul#etapes li#etape0 {
 		border-top-left-radius: 7px;

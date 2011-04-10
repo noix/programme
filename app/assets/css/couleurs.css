@@ -177,10 +177,10 @@ a {
 	/*-- Couleurs pour la flèche --*/
 		/*-- Couleur de texte --*/
 		ul#etapes div.digit {
-			color: #b4c17c; /* Chiffre */
+			color: #dab479; /* Chiffre */
 	}
 			ul#etapes li.selected div.digit {
-				color: #f6e2d0;
+				color: #e8cfa7;
 		}
 			/* */
 			ul#etapes.etape1.hover0 li#etape1 div.digit,
@@ -189,22 +189,22 @@ a {
 			ul#etapes.hover0 li#etape1 div.digit,
 			ul#etapes.hover1 li#etape2 div.digit,
 			ul#etapes.hover2 li#etape3 div.digit {
-				background-image: url("fleche-etape.png");
+				background-image: url("fleche-hover.png");
 			}
 		ul#etapes a {
-				color: #767f50;
-				border-bottom: 1px solid #bcd3a2;
+				color: #ea8c14;
+				border-bottom: 1px solid #f4c787;
 				 /* Titre */
 		}
 			ul#etapes li.selected a,
 			ul#etapes li.hover a  {
 				color: white;
-				border-bottom: 1px solid #898f6d;
+				border-bottom: 1px solid #bc8f55;
 			}
 
 		ul#etape p {
 			color: #8b989f; /* Description */
-	}
+		}
 			ul#etapes li.selected p {
 
 				color: #d6d9cb;
@@ -212,21 +212,21 @@ a {
 			}
 			ul#etapes li.hover p,
 			ul#etapes li.hover div.digit {
-				color: #ecf9cf;
+				color: #f9e7cf;
 			}
 
 
 		/*-- Couleur de fond --*/
 		.selected {
-			background-color: #ae6d33;
+			background-color: #835d93;
 		}
 		ul#etapes.etape1 li#etape1 div.digit,
 		ul#etapes.etape2 li#etape2 div.digit,
 		ul#etapes.etape3 li#etape3 div.digit {
-			background-image: url("flecheVerte.png");
+			background-image: url("fleche-actif.png");
 		}
 			ul#etapes li.hover {
-				background-color: #fd8f1c;
+				background-color: #ac64ca;
 				cursor: pointer;
 				cursor: hand;
 			}

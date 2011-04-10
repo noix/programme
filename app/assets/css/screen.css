@@ -408,7 +408,9 @@ div.couleur div.boite dl.contributions dt {
 	/*Vidéo*/
 	div#intro div.description {
 		float: left;
- 		width: 28em;
+ 		width: 26em;
+		font-size: 1.1em;
+		line-height: 1.4em;
 	}
 	div#presentation p, div#presentation h1 {
  		float: left;
@@ -557,6 +559,12 @@ div.couleur div.boite dl.contributions dt {
 			div.questions {
 				width: 425px;
 				float: left;
+			}
+			div.questions h2 {
+				font-weight: bold;
+				font-size: 1.5em;
+				margin-top: 1.5em;
+				padding-bottom: 0.5em;
 			}
 			span.definir {
 				border-bottom: 1px dotted #76858d;

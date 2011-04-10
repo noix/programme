@@ -6,6 +6,7 @@ div#presentation p,
 div#themes-nav h3 {
 	color: #878587; /* Gris de texte */
 }
+div.questions h2,
 div.navigation dd,
 div.bloc-eche h2,
 div.navigation dt {
@@ -73,6 +74,9 @@ ul.themes li a.selected span.titre {
 }
 
 /*-- Couleurs principales du thème --*/
+div.themes div.description {
+	color: #ffe9be;
+}
 div#intro p {
 	color: #faf1e0;
 }

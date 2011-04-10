@@ -28,7 +28,7 @@ div.navigation form p,
 div.navigation h4 {
 	color: #7b7777;
 }
-div.navigation p, div.navigation li, div#telechargement {
+div.questions ol li, div.navigation p, div.navigation li, div#telechargement {
 	color: #575757;
 }
 

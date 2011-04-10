@@ -566,6 +566,16 @@ div.couleur div.boite dl.contributions dt {
 				margin-top: 1.5em;
 				padding-bottom: 0.5em;
 			}
+			div.questions ol {
+				float: none;
+				margin-top: 0;
+				margin-bottom: 1em;
+				list-style-type: lower-roman;
+			}
+			div.questions ol li {
+				font-family: helvetica, arial, sans-serif;
+				font-size: 1em;
+			}
 			span.definir {
 				border-bottom: 1px dotted #76858d;
 				cursor: pointer;

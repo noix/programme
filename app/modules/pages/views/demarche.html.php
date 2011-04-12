@@ -48,24 +48,24 @@
 	<dl>
 		<dt>Lancement du cahier de participation</dt>
 		<dd>Le cahier de participation est maintenant disponible<br/>
-			<span>8 mai 2010</span></dd>
+			<span>10 avril 2011</span></dd>
 		<dt>Cercles citoyens</dt>
 		<dd>Préparez vos contributions<br/>
-			<span>Jusqu'au 15 octobre 2010</span></dd>
-		<dt>Conférences thématiques/Camp de formation</dt>
-		<dd>Apprenez-en plus sur les différents thèmes de l'enjeu 2<br/>
-			<span>12 au 14 novembre 2010</span></dd>
+			<span>Jusqu'au 3 août 2011</span></dd>
 		<dt>Lancement du cahier de perspective</dt>
 		<dd>Prenez connaissance des perspectives qui ont été retenues<br/>
-			<span>13 novembre 2010</span></dd>
+			<span>2 au 4 septembre 2011</span></dd>
+		<dt>Conférences thématiques/Camp de formation</dt>
+		<dd>Apprenez-en plus sur les différents thèmes de l'enjeu 2<br/>
+			<span>2 au 4 septembre</span></dd>
 		<dt>Propositions</dt>
 		<dd>Faites des propositions sur l'enjeu<br/>
-			<span>Jusqu'au 21 janvier 2011</span></dd>
-		<dt>Cahier de congrès</dt>
+			<span>Jusqu'au 21 octobre 2011</span></dd>
+		<dt>Cahier synthèse</dt>
 		<dd>Voyez les propositions qui seront discutées en Congrès<br/>
-			<span>Jusqu'au 14 février 2011</span></dd>
+			<span>Jusqu'au 14 novembre 2011</span></dd>
 		<dt>Congrès</dt>
-		<dd>Adoptez les positions pour le 2<sup>e</sup> enjeu du programme<br/>
-			<span>11 au 13 mars 2011</span></dd>
+		<dd>Adoptez les positions pour le 3<sup>e</sup> enjeu du programme<br/>
+			<span>9 décembre 2011</span></dd>
 	</dl>
 </div>

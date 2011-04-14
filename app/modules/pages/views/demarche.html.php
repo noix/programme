@@ -36,7 +36,7 @@
 	</div>
 	<div class="bloc-eche">
 		<h2>Des personnes-ressources disponibles pour les associations</h2>
-		<p>La Commission politique met à la disposition des associations des personnes-ressources pour les différents thèmes de l’enjeu 2. Ces personnes peuvent répondre à vos questions par <a href="mailto:programme@quebecsolidaire.net">courriel</a>, par téléphone et même participer à vos rencontres si vous le jugez nécessaire. Vous trouverez leurs coordonnées sur le site du programme.</p>
+		<p>La Commission politique met à la disposition des associations des personnes-ressources pour les différents thèmes de l’enjeu 3. Ces personnes peuvent répondre à vos questions par <a href="mailto:programme@quebecsolidaire.net">courriel</a>, par téléphone et même participer à vos rencontres si vous le jugez nécessaire. Vous trouverez leurs coordonnées sur le site du programme.</p>
 	</div>
 	<div class="bloc-eche">
 		<h2>Maintenant que vous connaissez la démarche, vous pouvez cliquer sur l'un des thèmes au centre de la page. Ceci vous permettra de à l'étape suivante du processus de programme et d'en apprendre plus les questionnements liés au thème choisi.</h2>
@@ -56,7 +56,7 @@
 		<dd>Prenez connaissance des perspectives qui ont été retenues<br/>
 			<span>2 au 4 septembre 2011</span></dd>
 		<dt>Conférences thématiques/Camp de formation</dt>
-		<dd>Apprenez-en plus sur les différents thèmes de l'enjeu 2<br/>
+		<dd>Apprenez-en plus sur les différents thèmes de l'enjeu 3<br/>
 			<span>2 au 4 septembre</span></dd>
 		<dt>Propositions</dt>
 		<dd>Faites des propositions sur l'enjeu<br/>

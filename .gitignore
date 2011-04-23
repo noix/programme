@@ -2,3 +2,4 @@ app/config/server.ini
 .htaccess
 archives/*
 Enjeu 1/*
+server.ini

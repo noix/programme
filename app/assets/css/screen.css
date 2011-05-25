@@ -586,7 +586,7 @@ div.couleur div.boite dl.contributions dt {
 				margin-left: 0.92em;
  				float: left;
 			}
-			div#lexique p {
+			div#lexique div {
  				width: 16em;
 				background-image: url("arrow.png");
 				background-repeat: no-repeat;
@@ -595,6 +595,7 @@ div.couleur div.boite dl.contributions dt {
 				padding: 0.7em 1em 0.7em 2em;
 				background-color: #dbdcdd;
 				font-size: 0.83em;				
+				line-height: 1.42em;
 			}
 
 			

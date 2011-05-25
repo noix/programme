@@ -96,14 +96,14 @@ $(document).ready(function(){
 	}	
 	
 	// Lexique
-	$("div#lexique p").hide();
+	$("div#lexique div").hide();
 	$("span.definir").click(function() {
 		var classes = $(this).attr("class");
 		var definitionID = classes.substring(classes.indexOf(" ") + 1);
 		var offset = $(this).offset();
-		$("p#" + definitionID).fadeIn("normal").css('top', offset.top).css('position', 'absolute');
+		$("div#" + definitionID).fadeIn("normal").css('top', offset.top).css('position', 'absolute');
 	});
 	$("body").click(function() {
-		$("div#lexique p:not(:animated)").fadeOut("normal");
+		$("div#lexique div:not(:animated)").fadeOut("normal");
 	})
 });

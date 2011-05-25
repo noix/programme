@@ -1,7 +1,7 @@
 <? if ($items): ?>
 <div id="lexique">
 	<? foreach ($items as $item): ?>
-		<p id="definition<?= $item['id'] ?>"><?= $item['definition'] ?></p>
+		<div id="definition<?= $item['id'] ?>"><?= $item['definition'] ?></div>
 	<? endforeach; ?>
 </div>
 <? endif; ?>

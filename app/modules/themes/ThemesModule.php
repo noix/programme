@@ -51,7 +51,7 @@ class ThemesModule extends Module {
 			
 			foreach ($lexique->items as $id => $item) {
 			  $sanitizedTerm = str_replace($sanitizeThis, $sanitizeIntoThis, $item['terme']);
-				$pattern = '/('. $sanitizedTerm .')(?![\d\w])/i';
+				$pattern = '/('. $sanitizedTerm .')(?=[\s\.,;:!\?"\'’»\)\]])/i';
 				preg_match_all($pattern, $this->item['questions'], $matches);
 				$replace[$item['id']] = $matches[0];
 
